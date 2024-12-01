@@ -1,0 +1,134 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #a8e063;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('https://yogifismart.com/cdn/shop/files/DSC_9855_d0925b40-3b38-4cc5-be96-8a3c00480e3a.jpg?v=1716808772&width=4128.jpg') no-repeat center center / cover;
+  color: white;
+}
+
+hero-content .hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  object-fit: cover; /* Ensures the image fills its container */
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+#hero .cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #56ab2f;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#hero .cta:hover {
+  background: #a8e063;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+#features {
+  background: #fff5e6;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#shop {
+  background: #e6ffe6;
+  text-align: center;
+}
+
+.product img {
+  max-width: 300px;
+  margin: 20px 0;
+}
+
+.product .buy-now {
+  background: #56ab2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.product .buy-now:hover {
+  background: #a8e063;
+}
+
+#testimonials {
+  background: #f5f5f5;
+}
+
+.testimonial {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-left: 4px solid #56ab2f;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
